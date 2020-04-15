@@ -1,0 +1,120 @@
+body
+{
+    background: #282828;
+}
+.main-content-wrapper
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 1.1em;
+    padding: 75px 0 0 50px;
+}
+.main-content-wrapper > .left-side-main
+{
+    flex-grow: 4;
+}
+.main-content-wrapper >.left-side-main > .text-title
+{
+    font-size: 2.25em;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    color: #989898;
+}
+.main-content-wrapper > .left-side-main > .text-title p span
+{
+    font-weight: 800;
+    font-size: 1.10em;
+    color: white;
+}
+/*To Add Hand emjoi*/
+#hand::before
+{
+    content: "\1F590";
+}
+.main-content-wrapper >.left-side-main > .text-info
+{
+    margin-top: 50px;
+    font-size: 1.85em;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: #989898;
+}
+.main-content-wrapper > .left-side-main > .main-content-button-wrapper
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+}
+.main-content-wrapper > .left-side-main > .main-content-button-wrapper > .button
+{
+    margin-right: 50px;
+    height: 45px;
+    width: 250px;
+    padding: 20px 5px 0 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+.main-content-wrapper > .left-side-main > .main-content-button-wrapper > .button:nth-child(1)
+{
+    background-color: green;
+    color: black;
+}
+.main-content-wrapper > .left-side-main > .main-content-button-wrapper > .button:nth-child(2)
+{
+    background-color: black;
+}
+.main-content-wrapper > .right-side-main
+{
+    width: 550px;
+}
+.main-content-wrapper > .right-side-main > .right-main-title
+{
+    margin: 0 0 25px 75px;
+    font-size: 1.45em;
+}
+.main-content-wrapper > .right-side-main > .right-main-title > p > span
+{
+    color: aqua;
+}
+.main-content-wrapper > .right-side-main > .right-main-img-wrapper
+{
+    overflow: hidden;
+}
+.main-content-wrapper > .right-side-main > .right-main-img-wrapper > img
+{
+    width: 550px;
+    height: auto;
+    margin-left: 50px;
+}
+.code-for-wrapper
+{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    border: 2px solid #858585;
+    height: 55px;
+}
+.code-for-wrapper > .code-for
+{
+    border-right: 1px solid #858585;
+    padding: 15px;
+    text-align: center;
+    background-color: #323232;
+    font-size: 1.15em;
+}
+.code-for-wrapper > .code-for > span
+{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.25em;
+}
+
+

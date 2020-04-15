@@ -1,0 +1,83 @@
+.nav-bar
+{
+    display: grid;
+    grid-template-columns: 2fr 5fr 4fr;
+    margin: 0;
+    color: white;
+    background-color: black;
+    height: 85px;
+}
+.nav-bar > .logo-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.nav-bar > .logo-wrapper > img
+{
+    width: 95%;
+}
+.nav-bar > .nav-links-wrapper
+{
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.nav-bar > .nav-links-wrapper > .nav-links-title
+{
+    text-align: left;
+    padding-left: 12px;
+    color: yellow;
+    font-size: 1.40em;
+}
+.nav-bar > .nav-links-wrapper > .links-wrapper
+{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    font-family: 'Archivo Black', sans-serif;
+    padding-bottom: 15px;
+}
+.nav-bar> .nav-links-wrapper > .links-wrapper > .nav-link
+{
+    font-size: 1.30em;
+    margin: 0 10px;
+}
+.nav-bar> .nav-links-wrapper > .links-wrapper > .nav-link:nth-child(5)
+{
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #656565;
+}
+.nav-bar > .nav-buttons-wrapper
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    max-width: 450px;
+}
+.nav-bar > .nav-buttons-wrapper > .button
+{
+    background-color: #656565;
+    border-radius: 4px;
+    height: 35px;
+    padding: 15px 20px 0 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.20em;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.nav-bar > .nav-buttons-wrapper > .button i
+{
+    color: yellowgreen;
+}
+.icon
+{
+    font-size: 1.75em;
+    padding: 8px;
+    color: #656565;
+}
